@@ -10,24 +10,37 @@ Similarly, they would want to know beverages are high in protein, high in fat, e
 For this analysis, the nutritional facts such as calories, total fat, trans fat, saturated fat, sugars, cholesterol, and protein are recorded for more than 30 Beverages on the menu. The facts are organized considering different choices of size and milk.
 
 ## The variables used in the dataset are as follows:
-    
+1. Category - High level categorization in the menu. Ex : Coffee, Espresso etc
+2. Beverage - Name of the beverage
+3. Size - Size of the beverage (Short, Tall, Grande, Venti)
+4. Milk - Choice of milk with different dairy content
+5. Calories - Total calories in kcal
+6. TotalFat - Total fat in g
+7. TransFat - Tans fat in g
+8. SaturatedFat - Saturated fat in g
+9. Sodium - Sodium content in mg
+10. TotalCarb - Total carbohydrates in g
+11. Cholesterol - Total cholesterol in mg
+12. DietaryFibre - Total dietary fibre content in g
+13. Sugars - Total sugar content in g
+14. Protein - Total protein in g
  
 ## Expectations
 You are a management consultant hired to analyze the nutritional fact of the coffee shop menu items.
 
-There are 3 types of analysis you are expected to deliver.
+There are 3 types of analysis you are expected to deliver :
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 
 Generate as many insights as possible on which beverage category, beverage, milk types are high and low on calories, fat, protein, carbs, sugar, and dietary fiber, etc.
 
-## Hypothesis testing
+### Hypothesis testing
 
 One of the popular beliefs among the management is that low-fat milk would the best in terms of calories as well as total fat therefore any beverage that uses low-fat milk should be marked as healthy or heart-healthy. 
 
 Conduct ANOVA or t-test to test this hypothesis.
 
-## Linear Regression
+### Linear Regression
 
 Also, the management wants to know if the calories can be predicted using a simple model so that they can easily calculate the calories going forward when they add a new item to the menu. 
 
